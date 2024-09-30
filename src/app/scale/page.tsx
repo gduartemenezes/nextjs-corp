@@ -1,9 +1,10 @@
-import React from 'react'
-
-const Scale = () => {
+import Hero from "@/components/hero";
+import scaleImg from "public/scale.jpg";
+export default function ScalePage1() {
   return (
-    <div>Scale</div>
-  )
+        <Hero
+          alt="steel factory"
+          imgData={scaleImg}
+          title="Scale your app to infinity"
+        />);
 }
-
-export default Scale
